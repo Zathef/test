@@ -15,4 +15,16 @@ public class PrimeiroPrograma {
 class Livros {
 	private String nome;
 	private String npag;
+	public String getNpag() {
+		return npag;
+	}
+	public void setNpag(String npag) {
+		this.npag = npag;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
 }
